@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "lib": ["es2024", "dom"],
     "jsx": "react-jsx",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "noEmit": true
   }
 }
