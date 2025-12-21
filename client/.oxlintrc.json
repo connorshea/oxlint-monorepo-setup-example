@@ -2,7 +2,9 @@
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "plugins": ["react", "typescript", "unicorn"],
   "categories": {
-    "correctness": "error"
+    "correctness": "error",
+    "style": "warn",
+    "perf": "warn",
   },
   "rules": {
     "no-unused-vars": [
