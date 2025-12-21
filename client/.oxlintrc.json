@@ -1,11 +1,8 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": [
-    "react",
-    "typescript"
-  ],
+  "plugins": ["react", "typescript", "unicorn"],
   "categories": {
-    "correctness": "off"
+    "correctness": "error"
   },
   "rules": {
     "no-unused-vars": [
@@ -13,17 +10,6 @@
       {
         "varsIgnorePattern": "^React"
       }
-    ],
-  },
-  "overrides": [
-    {
-      "files": [
-        "**/*.ts",
-        "**/*.tsx"
-      ],
-      "rules": {
-        "no-unused-vars": "error"
-      }
-    }
-  ]
+    ]
+  }
 }
