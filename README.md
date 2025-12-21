@@ -10,4 +10,8 @@ To install dependencies, run:
 bundle install # can skip this probably, you don't really need to care about the Rails app.
 cd client
 npm install
+npm run lint # run oxlint (with type-aware rules)
+npm run fmt # (run oxfmt)
+npm run tsc # typecheck with ts5.9
+npm run tsgo # typecheck with ts7
 ```
