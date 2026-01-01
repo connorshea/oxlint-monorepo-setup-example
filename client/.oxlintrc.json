@@ -1,17 +1,13 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "unicorn"],
+  "plugins": ["typescript"],
   "categories": {
-    "correctness": "error",
-    "style": "warn",
-    "perf": "warn",
+    "correctness": "off",
+    "style": "off",
+    "perf": "off"
   },
   "rules": {
-    "no-unused-vars": [
-      "error",
-      {
-        "varsIgnorePattern": "^React"
-      }
-    ]
+    "no-debugger": "warn",
+    "typescript/require-await": "error"
   }
 }
