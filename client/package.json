@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "lint": "oxlint --type-aware --disable-nested-config",
+    "lint": "oxlint --type-aware",
     "tsc": "tsc",
     "fmt": "oxfmt",
     "tsgo": "tsgo"
